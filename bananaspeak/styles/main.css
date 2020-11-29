@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap');
+
+:root
+{
+
+    --primrary-color:#F2C94C;
+    --black-color:#333333;    
+}
+
+body
+{
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0px;
+}
+
+/* header */
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primrary-color);
+}
+
+.header .header-h1
+{
+    text-align: center;
+    font-weight: normal;
+}
+
+/* container */
+
+.container
+{
+    padding: 0rem 2rem;
+    /* background-color: gray; */
+}
+
+.container-centered
+{
+    max-width: 800px;
+    margin: 2rem auto; 
+    
+}
+
+/* aritcle */
+
+.textarea-article
+{
+    resize: none;
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.btn-article
+{
+    margin: 0rem 1rem 1rem 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--primrary-color);
+    border-style: groove;
+}
+
+.para-article
+{
+    margin: 0rem 1rem 0.5rem 1rem;
+    font-size: larger;
+}
+
+.div-article
+{
+    margin: 0rem 1rem 1rem 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+}
+
+/* footer */
+
+.footer
+{
+
+    background-color: var(--primrary-color);
+}
+
+.footer .footer-h1
+{
+    text-align: center;
+    font-weight: normal;
+}
+
+.footer .footer-para
+{   
+    font-weight: lighter;
+    padding: 0rem 10rem;
+    text-align: justify;
+}
