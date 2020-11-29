@@ -12,6 +12,7 @@ function minionErrorHandler(error)
 {
     output_div.innerText = ""+error;
     alert("Error While Translating ");
+    input_textarea.value=" ";
 }
 
 function giveQueryURL(text)
@@ -26,6 +27,7 @@ function giveQueryURL(text)
 function translate(event)
 {
     console.log("\n button translate clicked \n");
+    output_div.innerText = " ";
         var text = input_textarea.value;
         var queryURL = giveQueryURL(text);
     // console.log("text",text,"queryURL",queryURL);
